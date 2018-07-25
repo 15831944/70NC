@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/play2.png</file>
+        <file>icon/pause2.png</file>
+        <file>icon/next2.png</file>
+        <file>icon/unchecked16.png</file>
+        <file alias="checked">icon/checked16.png</file>
+        <file>icon/reset.png</file>
+        <file>icon/open2.png</file>
+        <file alias="iconred">icon/red.png</file>
+        <file alias="icongreen">icon/green.png</file>
+        <file>icon/arrow_right.png</file>
+        <file>icon/right_arrow.png</file>
+        <file>icon/000.png</file>
+        <file>icon/axis.png</file>
+        <file>icon/stop.png</file>
+        <file>icon/Restart.png</file>
+        <file alias="enabled_yse">icon/comfirm_ok.png</file>
+        <file alias="enabled_no">icon/delete_24px.png</file>
+        <file alias="startRow">icon/Select_Row.png</file>
+        <file>icon/left_arrow.png</file>
+        <file alias="Tgreen">icon/Tgreen.png</file>
+        <file alias="Tred">icon/Tred.png</file>
+        <file alias="open">icon/cube-open.png</file>
+        <file alias="pause">icon/cube-pause.png</file>
+        <file alias="play">icon/cube-play.png</file>
+        <file alias="reload">icon/cube-reload.png</file>
+        <file alias="return">icon/cube-return.png</file>
+        <file alias="start">icon/cube-start.png</file>
+        <file alias="startline">icon/cube-startline.png</file>
+        <file alias="stop">icon/cube-stop.png</file>
+        <file alias="next">icon/nexcube-t.png</file>
+        <file>icon/radio_c.png</file>
+        <file>icon/radio_u.png</file>
+        <file>icon/radio_off.png</file>
+        <file>icon/radio_on.png</file>
+        <file alias="gary_next">icon/gary_next.png</file>
+        <file alias="gary_pause">icon/gary_pause.png</file>
+        <file alias="gray_play">icon/gray_play.png</file>
+        <file alias="/gray_restart">icon/gray_restart.png</file>
+    </qresource>
+</RCC>

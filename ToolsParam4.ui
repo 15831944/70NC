@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolsParam4</class>
+ <widget class="QWidget" name="ToolsParam4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>454</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>37</y>
+     <width>421</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>421</width>
+     <height>111</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>421</width>
+     <height>111</height>
+    </size>
+   </property>
+   <row>
+    <property name="text">
+     <string>T1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T4</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>291</y>
+     <width>411</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="zhenkongbeng1">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>真空泵控制开</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="zhenkongbeng2">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>真空泵控制关</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="dingweiqigang1">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>定位气缸控制开</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="dingweiqigang2">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>定位气缸控制关</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="tuiliaoqigang1">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>推料气缸控制开</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="tuiliaoqigang2">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>推料气缸控制关</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="btsave">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>33</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>保存设置</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>235</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="In13enabled">
+      <property name="text">
+       <string>In13</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCheckBox" name="In14enabled">
+      <property name="text">
+       <string>In14</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QCheckBox" name="In15enabled">
+      <property name="text">
+       <string>In15</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="In6enabled">
+      <property name="text">
+       <string>In6</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>155</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刀具数量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ToolsCount">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>155</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>155</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换刀前安全高度</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ToolSafeZ">
+   <property name="geometry">
+    <rect>
+     <x>353</x>
+     <y>155</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>181</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>推料起始点X</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TuiLiaoStartX">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>181</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>181</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>推料结束点X</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TuiLiaoEndX">
+   <property name="geometry">
+    <rect>
+     <x>353</x>
+     <y>181</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>207</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>推料起始点Y</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TuiLiaoStartY">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>207</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>229</x>
+     <y>207</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>推料结束点Y</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TuiLiaoEndY">
+   <property name="geometry">
+    <rect>
+     <x>353</x>
+     <y>207</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

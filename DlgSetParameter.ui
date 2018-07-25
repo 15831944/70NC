@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetParameter</class>
+ <widget class="QWidget" name="SetParameter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>686</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btClose">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>490</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbUser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>51</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户参数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DlgC">
+   <property name="geometry">
+    <rect>
+     <x>691</x>
+     <y>5</y>
+     <width>22</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btParamGeiJZ">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>124</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>进给轴参数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btParamTool">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>161</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刀具参数</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>501</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>值</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>单位</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>生效时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>描述</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="btParamAll">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>218</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>参数总览</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>400</y>
+     <width>501</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btSearch">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>49</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查找</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btParamIO">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>253</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>IO参数</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>273</x>
+     <y>50</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btParamCaoz">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>88</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>操作参数</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbManufacturer">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>51</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>厂商参数</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

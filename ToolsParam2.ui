@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolsParam2</class>
+ <widget class="QWidget" name="ToolsParam2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="ToolSafeZ">
+   <property name="geometry">
+    <rect>
+     <x>303</x>
+     <y>279</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="In13enabled">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>234</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>松刀In13使能</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Tishi">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>357</y>
+     <width>371</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;注：以上参数所有位置都是机械坐标！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="In6enabled">
+   <property name="geometry">
+    <rect>
+     <x>169</x>
+     <y>258</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>气缸推出使能In6</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>41</y>
+     <width>421</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>T1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T10</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T11</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T12</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T13</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T14</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T15</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>T16</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="ToolChangeUpZ">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>331</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>305</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换刀速度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>331</y>
+     <width>72</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换刀上抬高度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>279</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刀具数量</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RbPaiDao">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>234</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>排刀</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="In14enabled">
+   <property name="geometry">
+    <rect>
+     <x>169</x>
+     <y>234</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>夹刀In14使能</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RbToolY">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>307</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刀库在Y轴</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup_2</string>
+   </attribute>
+  </widget>
+  <widget class="QCheckBox" name="In7enabled">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>258</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>气缸收回使能In7</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ToolsCount">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>279</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="In15enabled">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>258</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>吸尘罩In15使能</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>186</x>
+     <y>305</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换刀前置点偏移量</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ToolInFeed">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>305</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RbQIGang">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>234</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>气缸</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QRadioButton" name="RbToolX">
+   <property name="geometry">
+    <rect>
+     <x>369</x>
+     <y>281</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刀库在X轴</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup_2</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>186</x>
+     <y>279</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>换刀前安全高度</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ToolReady">
+   <property name="geometry">
+    <rect>
+     <x>303</x>
+     <y>305</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btsave">
+   <property name="geometry">
+    <rect>
+     <x>356</x>
+     <y>341</y>
+     <width>98</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>33</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>保存设置</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

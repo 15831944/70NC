@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MultifileTask</class>
+ <widget class="QWidget" name="MultifileTask">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MultifileTask</string>
+  </property>
+  <widget class="QPushButton" name="addfile">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>255</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delfile">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>255</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="autowork">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>255</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自动开始</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="unloadlab">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>290</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>自动开始后，手动装载/卸载文件，会取消排程加工</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="MultifileTaskTable">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>40</y>
+     <width>391</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>文件名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>次数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>状态</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>265</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前：开</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DFX_GCode</class>
+ <widget class="QWidget" name="DFX_GCode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DFX_GCode</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_Dfx">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>124</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="XuanZheDfx">
+   <property name="geometry">
+    <rect>
+     <x>288</x>
+     <y>122</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择DXF文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Yanlan">
+   <property name="geometry">
+    <rect>
+     <x>484</x>
+     <y>81</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>预览</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>162</y>
+     <width>351</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 159, 160);</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="DXFOpenGLWidget" name="openGLWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>116</y>
+     <width>311</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>DXF节点</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="treeWidget">
+       <column>
+        <property name="text">
+         <string notr="true">1</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>G代码</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="tableWidget">
+       <column>
+        <property name="text">
+         <string>Code</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Zhuangzai">
+   <property name="geometry">
+    <rect>
+     <x>604</x>
+     <y>81</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>装载</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="dandujiagong">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>95</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>形状单独加工</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="UseFileDepth">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>74</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>深度来自文件</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>29</x>
+     <y>37</y>
+     <width>211</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>G0抬刀高度：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="ZValue">
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>加工深度：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="ZDepth">
+      <property name="text">
+       <string>-1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>每次加工量：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="ZDepth2">
+      <property name="text">
+       <string>-1</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Test">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>45</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TestButton</string>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>lineEdit_Dfx</zorder>
+  <zorder>XuanZheDfx</zorder>
+  <zorder>Yanlan</zorder>
+  <zorder>widget</zorder>
+  <zorder>tabWidget</zorder>
+  <zorder>Zhuangzai</zorder>
+  <zorder>dandujiagong</zorder>
+  <zorder>UseFileDepth</zorder>
+  <zorder>Test</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>DXFOpenGLWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header>dxfopenglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

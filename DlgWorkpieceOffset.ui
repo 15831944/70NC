@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgWorkpieceOffset</class>
+ <widget class="QWidget" name="DlgWorkpieceOffset">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>341</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn">
+   <property name="geometry">
+    <rect>
+     <x>372</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>28</x>
+     <y>49</y>
+     <width>641</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>设定活动的坐标系：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>0</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>G54</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G55</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G56</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G57</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G58</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G59</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="bty">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>301</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>85</y>
+     <width>661</width>
+     <height>198</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_19">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>G54</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_4">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_5">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_6">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G54_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>G55</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout_43">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_43">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_44">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_44">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_45">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_45">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_46">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_46">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_47">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_47">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_48">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_48">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G55_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>G56</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_12">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout_49">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_49">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_50">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_50">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_51">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_51">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_52">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_52">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_53">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_53">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_54">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_54">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G56_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="title">
+       <string>G57</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_14">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout_55">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_55">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_56">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_56">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_57">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_57">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_58">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_58">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_59">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_59">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_60">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_60">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G57_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="title">
+       <string>G58</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_15">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_16">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout_61">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_61">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_62">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_62">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_63">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_63">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_64">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_64">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_65">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_65">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_66">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_66">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G58_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="title">
+       <string>G59</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_17">
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_18">
+         <item row="0" column="0">
+          <layout class="QFormLayout" name="formLayout_67">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_67">
+             <property name="text">
+              <string>X</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <layout class="QFormLayout" name="formLayout_68">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_68">
+             <property name="text">
+              <string>Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QFormLayout" name="formLayout_69">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_69">
+             <property name="text">
+              <string>Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59_3"/>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <layout class="QFormLayout" name="formLayout_70">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_70">
+             <property name="text">
+              <string>A</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59_4"/>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="0">
+          <layout class="QFormLayout" name="formLayout_71">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_71">
+             <property name="text">
+              <string>B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59_5"/>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QFormLayout" name="formLayout_72">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_72">
+             <property name="text">
+              <string>C</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="G59_6"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
