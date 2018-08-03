@@ -219,17 +219,15 @@ void QStartFromIndex::showEvent(QShowEvent * event)
 
 void QStartFromIndex::setPos(int row)
 {
-	//QString  curline = pAutoWork->getTableWidget()->item(row, 1)->text
 	if (row < 0)return;
-	QString  curline = pAutoWork->TableRowList[row];
-	if (mx.isEmpty())mx = SammonFunc::GetNumber(curline, 'x', 'X');
-	if (my.isEmpty())my = SammonFunc::GetNumber(curline, 'y', 'Y');
-	if (mz.isEmpty())mz = SammonFunc::GetNumber(curline, 'z', 'Z');
-
-	if (mx.isEmpty()||my.isEmpty()||mz.isEmpty()) {
-		if (row > 0) {
-			setPos(row - 1);
-		}
+	int	num = 0;
+	for (int i = row; i < pAutoWork->TableRowList.size()&&i>= num; i--) {
+		QString  curline = pAutoWork->TableRowList[i];
+		if (mx.isEmpty())mx = SammonFunc::GetNumber(curline, 'x', 'X');
+		if (my.isEmpty())my = SammonFunc::GetNumber(curline, 'y', 'Y');
+		if (mz.isEmpty())mz = SammonFunc::GetNumber(curline, 'z', 'Z');
+		if (!mx.isEmpty() && !my.isEmpty() && !my.isEmpty())
+			break;		
 	}
 }
 

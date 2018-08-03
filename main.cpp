@@ -26,7 +26,7 @@ bool IsPC = 1;//是否在PC上运行
 int VType4 = 1;//VersionType==4    0  正常4把刀， 1 推料机版本
 void SetVersion() {
 	int Ptype;
-	NcPod::getIns()->Get_CardTyp(0, &VersionType, &Ptype);
+	NcPod::getIns()->Get_CardTyp(0, &VersionType, &Ptype);//仿真版 这句要注释
 	is6Axis = Ptype == 6;
 
 	if (VersionType == 6) VersionType = 1;
@@ -35,8 +35,8 @@ void SetVersion() {
 			readIni.SetToolCount(QString("4"));
 		VType4 = 1;
 	}
-	isFull = 1;
-	IsPC = 0;
+	isFull = 0;
+	IsPC = 1;
 	isSimulation = 0;
 #ifdef  _DEBUG
 	VersionType = 4;
@@ -107,8 +107,8 @@ int main(int argc, char *argv[])
 	TrLang::Ins();
 #ifndef _DEBUG
 	if (0 == mcc->GetGmode(13).toInt()) {
-		QMessageBox::information(0, "Warning", TrLang::text(92), QMessageBox::Ok);
-		return 0;
+		QMessageBox::information(0, "Warning", TrLang::text(92), QMessageBox::Ok); //仿真版 这句要注释
+		return 0; //仿真版 这句要注释
 	}
 #endif // !_DEBUG
 
